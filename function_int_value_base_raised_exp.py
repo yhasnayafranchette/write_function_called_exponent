@@ -9,6 +9,10 @@ def exponent (base,exp):
 #Loop to calculate base raised to exp
         for number in range(exp):
             result *= base
+        return result
+    
 #Print error message if exp is not a non-negative integer
+    else:
+        print("Error: exp must be a non-negative integer.")
 
 #Print the result
