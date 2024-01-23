@@ -2,6 +2,11 @@
 # Note here exp is a non-negative integer, and the base is an integer.
 
 #Check if exp is a non-negative integer
+def exponent (base,exp):
+    if type(exp) == int and exp >=0:
+        result = 1
+
+#Loop to calculate base raised to exp
 
 #Print error message if exp is not a non-negative integer
 
