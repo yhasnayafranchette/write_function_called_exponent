@@ -17,6 +17,8 @@ def exponent (base,exp):
 
 #Print the result
 base_value = 2
-exponent_value = 3
+exponent_value = 5
 result = exponent(base_value, exponent_value)
+print (f"base = {base_value}")
+print (f"exponent = {exponent_value}")
 print(f"{base_value} raised to the power of {exponent_value} is: {result}")
