@@ -24,3 +24,12 @@ if result is not None:
     print (f"base = {base_value}")
     print (f"exponent = {exponent_value}")
     print(f"{base_value} raised to the power of {exponent_value} is: {result}")
+
+base_value = 5
+exponent_value = 4
+result = exponent(base_value, exponent_value)
+
+if result is not None:
+    print (f"base = {base_value}")
+    print (f"exponent = {exponent_value}")
+    print(f"{base_value} raised to the power of {exponent_value} is: {result}")
