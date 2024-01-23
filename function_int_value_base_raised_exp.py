@@ -7,7 +7,8 @@ def exponent (base,exp):
         result = 1
 
 #Loop to calculate base raised to exp
-
+        for number in range(exp):
+            result *= base
 #Print error message if exp is not a non-negative integer
 
 #Print the result
